@@ -103,3 +103,8 @@ button:focus{
 	line-height: 40px;
 	border-radius: 50%;
 }
+
+/*Skills Card*/
+.skills-card{
+	margin: 10px;
+}
