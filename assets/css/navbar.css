@@ -1,0 +1,118 @@
+    <!-- NAV BEGIN -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navi">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="" class="navbar-brand">APP-KART</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navi">
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="">Home</a></li>
+            <li><a href="">Our Services</a></li>
+            <li><a href="">Works</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Carrier</a></li>
+            <li><a href="">Our Location</a></li>
+          </ul>  
+        </div>  
+
+      </div>
+    </nav>
+    <!-- NAV END -->
+
+
+    <!-- New Nav -->
+    <!-- NAV BEGIN -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">APP-KART</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <span class="btn-toggler-icon"></span>
+        <span class="btn-toggler-icon"></span>
+        <span class="btn-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Carrier</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Location</a>
+          </li>
+      </div>
+    </nav>
+
+    <!-- NAV END -->
+
+    <!-- New Nav CSS -->
+
+    .navbar{
+  padding: 24px 40px;
+  border-bottom: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar ul li a{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 13px;
+  transition: all 0.5s ease-in-out;
+  background: transparent;
+}
+
+.navbar .navbar-nav .navlink:hover, .navbar .navbar-nav .navlink:focus{
+  color: deepskyblue;
+  background: none;
+}
+
+.navbar-toggler{
+  border: 1px solid white;
+  color: white;
+  transform: all 0.5s ease-in;
+}
+
+.btn-toggler-icon{
+  height: 1px;
+  width: 25px;
+  margin: 6px 0;
+  background-color: yellow;
+  display: block; 
+}
+
+.navbar .navbar-toggler{
+  border-color: yellow;
+  border-radius: 0;
+
+}
+
+

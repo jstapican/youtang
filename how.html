@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Viewport and Charset -->
+    <meta charset="utf-8">
+    <!-- To ensure proper rendering and touch zooming in Mobile Phones-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, shrink-to-fit=no, maximum-scale=1.0">
+
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+
+    <!-- Bootstrap CSS -->
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Counter Up jQuery -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link rel="icon" href="assets/images/favicon.ico" type="image/gif" sizes="16x16">
+    <title>YouTang - CAPSTONE 1</title>
+  </head>
+  <body>
+
+    <!-- NAV BEGIN -->
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navi">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="" class="navbar-brand">YouTang</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navi">
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="how.html">How it Works</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>            
+            <!-- <li><a href="" class="location">Our Location</a></li> -->
+          </ul>  
+        </div>  
+
+      </div>
+    </nav>
+    <!-- NAV END -->
+
+    <section id="home" class="header-pages">
+    </section>
+
+    <!-- HOW IT WORKS BEGIN -->
+    <section class="latest-news-area" id="latest">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="section_title">
+              <div class="section_subtitle">Crowdfunding Process</div>
+              <h2>How it <strong>Works</strong>?</h2>
+            </div>
+          </div>  
+        </div>
+
+        <br><br>
+
+        <div class="row">
+          <div class="news-active">
+
+            <div class="col-md-4">
+              <div class="latest-news-wrap">
+                <div class="news-img">
+                  <img src="assets/images/how-1.png" class="img-responsive" alt="how-1">
+                  <div class="deat">
+                    <span>Step</span>
+                    <span>1</span>
+                  </div>
+                </div>
+
+                <!-- missing social links -->
+                <div class="news-content">
+                  <p>
+                    Sign-up and register to be able to view and invest in the selection of farms curated for this cycle. Once the farm has been fully funded, the farmers will be provided with the resources they need to start farming.
+                  </p>
+                  <br>
+                  <a href="contact.html">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="latest-news-wrap">
+                <div class="news-img">
+                  <img src="assets/images/how-2.png" class="img-responsive" alt="how-2">
+                  <div class="deat">
+                    <span>Step</span>
+                    <span>2</span>
+                  </div>
+                </div>
+
+                <!-- missing social links -->
+                <div class="news-content">
+                  <p>
+                    The funds and resources will then be utilized to improve production. YouTang manages the fund for the farmer, making sure it goes to the right resources in hopes that investors get their return on investment.
+                  </p>
+                  <br>
+                  <a href="contact.html">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="latest-news-wrap">
+                <div class="news-img">
+                  <img src="assets/images/how-4.png" class="img-responsive" alt="how-3">
+                  <div class="deat">
+                    <span>Step</span>
+                    <span>3</span>
+                  </div>
+                </div>
+
+                <!-- missing social links -->
+                <div class="news-content">
+                  <p>
+                    After the harvest and once the produce has been sold, the capital will return to the investor’s virtual wallet together with the profit shared. <br><br><br>
+                  </p>
+                  <br>
+                  <a href="contact.html">Read More</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- HOW IT WORKS END -->
+
+    <br><br>
+
+
+
+    <!-- FOOTER -->
+    <footer class="footer-section">
+      <div class="footer-body">        
+        <div class="footer-content">        
+          <small>|  Copyright &copy; John Steven Tapican  |  Tuitt 2018  |</small><br>
+          <small>Made for Education Purposes. All Rights Reserved to the Original Owners.</small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Sticky Header and Nav JS -->
+    <script type="text/javascript">
+      $(window).scroll(function(){
+        var top = $(window).scrollTop();
+          if(top>=60){
+            $("nav").addClass('secondary');
+          }
+          else
+            if($("nav").hasClass('secondary')){
+              $("nav").removeClass('secondary');
+            }
+      });
+    </script>
+
+    <!-- Counterup -->
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 15,
+                time: 2000
+            });
+        });
+    </script>
+
+  </body>
+</html>

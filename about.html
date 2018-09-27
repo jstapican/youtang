@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Viewport and Charset -->
+    <meta charset="utf-8">
+    <!-- To ensure proper rendering and touch zooming in Mobile Phones-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, shrink-to-fit=no, maximum-scale=1.0">
+
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+
+    <!-- Bootstrap CSS -->
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Counter Up jQuery -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link rel="icon" href="assets/images/favicon.ico" type="image/gif" sizes="16x16">
+    <title>YouTang - CAPSTONE 1</title>
+  </head>
+  <body>
+
+    <!-- NAV BEGIN -->
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navi">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="" class="navbar-brand">YouTang</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navi">
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="how.html">How it Works</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>            
+            <!-- <li><a href="" class="location">Our Location</a></li> -->
+          </ul>  
+        </div>  
+
+      </div>
+    </nav>
+    <!-- NAV END -->
+
+   <section id="home" class="header-pages">
+   </section>
+    
+    <!-- ABOUT BEGIN -->
+    <section id="about" class="section-padding about-section">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="section_title"><br>
+              <div class="section_subtitle">About YouTang</div> <br>
+              <h2 class="section_main_title"><strong>YouTang</strong> is a crowdfunding platform that connects anyone to help finance our farmer</h2>
+            </div>
+
+            <div class="about-item">
+              <p>
+                Despite being an agricultural country, we are among the top rice importers in the world. Agriculture also contributes only 9% of the country’s GDP, while contributing to the majority of the country’s employment. This reality of the Philippine agriculture sector is baffling and unacceptable.
+              </p>
+              <p>
+                <strong>YouTang exists to help solve these problems.</strong>
+              </p>
+              <p>
+                We aim to improve the income and productivity of our farmers through crowdfunding.
+              </p>
+              <div class="hgt-20"></div>
+              <div class="home-button"><br>
+                <a href="index.html" class="btn-color-background">Read More</a>
+              </div>      
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-sm-offset-2">
+            <div class="about-box">
+              <div class="box-overlay"></div>
+              <a href="https://www.youtube.com/watch?v=XONTfRfxdxY" class="videopopup">
+                <img src="assets/images/about.jpg" alt="about-image">
+                <!-- <br> -->
+                <span class="sonar-wrapper">
+                  <span class="sonar-emitter">
+                    <i class="fa fa-play"></i>
+                    <div class="sonar-wave"></div>
+                  </span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT END -->
+
+    
+
+    <!-- FOOTER -->
+    <footer class="footer-section">
+      <div class="footer-body">        
+        <div class="footer-content">        
+          <small>|  Copyright &copy; John Steven Tapican  |  Tuitt 2018  |</small><br>
+          <small>Made for Education Purposes. All Rights Reserved to the Original Owners.</small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Sticky Header and Nav JS -->
+    <script type="text/javascript">
+      $(window).scroll(function(){
+        var top = $(window).scrollTop();
+          if(top>=60){
+            $("nav").addClass('secondary');
+          }
+          else
+            if($("nav").hasClass('secondary')){
+              $("nav").removeClass('secondary');
+            }
+      });
+    </script>
+
+    <!-- Counterup -->
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 15,
+                time: 2000
+            });
+        });
+    </script>
+
+  </body>
+</html>
